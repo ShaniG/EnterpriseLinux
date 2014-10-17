@@ -9,3 +9,4 @@
  * `vagrant ssh` connecteren met box.
  * `exit` uit box gaan.
  * `vagrant halt` afsluiten van box.
+ * `vagrant provision` instellingen doorvoeren.
