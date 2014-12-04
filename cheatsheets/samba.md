@@ -22,3 +22,13 @@ Also a checklist for troubleshooting the server.
 * `systemctl restart smb.service` restart smb service
 
 ##Checklist
+1. Check all physical components ( wiring,...)
+2. Check if packages are installed (above: cheats/installation)
+3. Check if the services are running : `systemctl status smb.service`
+4. Check firewall: `systemctl status firewalld, firewall-cmd --state, firewall-cmd --list-all/--list-services`
+5. Check users existence: `cat /etc/passwd or id [id/username]`
+6. Check groups: `cat /etc/groups`
+6. Check configuration file: `cat /etc/samba/smb.conf`
+7. Check Selinux booleans: `getsebool -a | grep [samba_export_all_ro,samba_export_all_rw,samba_anon_write,samba_enable_home_dirs]`
+8. Check permissions: `ls -l`
+
