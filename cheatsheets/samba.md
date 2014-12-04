@@ -32,5 +32,5 @@ Also a checklist for troubleshooting the server.
 7. Check Selinux booleans: `getsebool -a | grep [samba_export_all_ro,samba_export_all_rw,samba_anon_write,samba_enable_home_dirs]`
 8. Check permissions: `ls -l`
 
-**Tools:** 
+**Tools:** </br>
 dddd
