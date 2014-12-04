@@ -32,6 +32,10 @@ Also a checklist for troubleshooting the server.
 7. Check Selinux booleans: `getsebool -a | grep [samba_export_all_ro,samba_export_all_rw,samba_anon_write,samba_enable_home_dirs]`
 8. Check permissions: `ls -l`
 
-**Tools:**
+**Tools/urls:**
 
-dddd
+* Logs: `journalctl -f`
+* Firewalld: https://fedoraproject.org/wiki/FirewallD
+* Samba: https://www.samba.org/
+* Selinux: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/SELinux_Users_and_Administrators_Guide/
+* RHEL7: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/
