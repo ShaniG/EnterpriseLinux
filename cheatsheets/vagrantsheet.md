@@ -10,3 +10,4 @@
  * `exit` uit box gaan.
  * `vagrant halt` afsluiten van box.
  * `vagrant provision` instellingen doorvoeren.
+ * `vagrant plugin install vagrant-vyatta` plugin voor router.
